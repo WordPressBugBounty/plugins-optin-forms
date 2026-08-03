@@ -1,9 +1,12 @@
 === Optin Forms - Simple List Building Plugin for WordPress ===
 Contributors: wpkube, FancyThemes
-Tags: aweber, getresponse, madmimi, mailerlite, convertkit, email list
+Tags: aweber, getresponse, madmimi, mailerlite, email list
 Requires at least: 3.2
-Tested up to: 6.5
-Stable tag: 1.3.7.1
+Requires PHP: 7.4
+Tested up to: 7.0
+Stable tag: 1.3.7.2
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Create beautiful optin forms with ease. Choose a form design, customize it, and add your form to your blog with a simple mouse-click.
 
@@ -59,6 +62,9 @@ Having trouble with the plugin? Simply post your question to the [support forum]
 3. Add your form to your website with a simple mouse-click.
 
 == Changelog ==
+= 1.3.7.2 (August 2nd, 2026) =
+* WordPress 7.0 compatibility
+
 = 1.3.7.1 (April 17th, 2024) =
 * Security fixes
 

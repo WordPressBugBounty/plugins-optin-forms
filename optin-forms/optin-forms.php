@@ -4,7 +4,7 @@ Plugin Name: Optin Forms
 Plugin URI: http://fancythemes.com/plugins/optin-forms/
 Description: Create beautiful optin forms with ease. Choose a form design, customize it, and add your form to your blog with a simple mouse-click.
 Author: FancyThemes
-Version: 1.3.7.1
+Version: 1.3.7.2
 Author URI: http://www.fancythemes.com
 Text Domain: optin-forms
 Domain Path:   /languages/
@@ -110,7 +110,7 @@ class Optin_Forms {
 		wp_enqueue_style('wp-color-picker');
 		wp_enqueue_script('optinforms-color', plugins_url('/js/optinforms-color.js', __FILE__ ), array( 'wp-color-picker' ), false, true );
 		wp_enqueue_script('placeholder', plugins_url('/js/placeholder.js', __FILE__ ));
-		wp_enqueue_script('toggle', plugins_url('/js/custom.js', __FILE__ ), array(), '1.3.7.1');
+		wp_enqueue_script('toggle', plugins_url('/js/custom.js', __FILE__ ), array(), '1.3.7.2');
 		wp_enqueue_script('jquery-ui-slider');
 		wp_register_style('optinforms-googleFont', '//fonts.googleapis.com/css?family=Share+Tech|Droid+Sans|Lobster|Fenix|Unkempt|Flavors|Viga|Damion|Oleo+Script|Racing+Sans+One|Nixie+One|Fredoka+One|Open+Sans|Overlock+SC|Bubbler+One|Contrail+One|Gochi+Hand|Roboto+Condensed|Russo+One|Cinzel+Decorative|News+Cycle|Marcellus+SC|Chewy|Quicksand|Sanchez|Signika+Negative|Gloria+Hallelujah|Grand+Hotel|Droid+Serif|Englebert|Oswald|Pacifico|Titan+One|Shadows+Into+Light|Dancing+Script|Luckiest+Guy|Parisienne|Coming+Soon|Baumans|Belgrano');
 
@@ -135,8 +135,8 @@ class Optin_Forms {
 	 */
 	public function optinforms_scripts() {
 		wp_enqueue_script('jquery');
-		wp_enqueue_style('optinforms-stylesheet', plugins_url('/css/optinforms.css', __FILE__ ), array(), '1.3.7.1' );
-		wp_enqueue_script('placeholder', plugins_url('/js/placeholder.js', __FILE__ ), array(), '1.3.7.1', true);		
+		wp_enqueue_style('optinforms-stylesheet', plugins_url('/css/optinforms.css', __FILE__ ), array(), '1.3.7.2' );
+		wp_enqueue_script('placeholder', plugins_url('/js/placeholder.js', __FILE__ ), array(), '1.3.7.2', true);		
 		if ( optinforms_used_fonts() !== '//fonts.googleapis.com/css?family=' ) {
 			wp_enqueue_style('optinforms-googleFont', optinforms_used_fonts());
 		}
